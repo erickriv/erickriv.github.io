@@ -12,7 +12,7 @@
     <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/main2.css" />
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 </head>
@@ -22,14 +22,15 @@
 
         <!-- Header -->
         <header id="header">
-            <h1 id="logo"><a href="index.html">erickriv</a></h1>
+            <h1 id="logo"><a href="index.html">ERICK RIVERA</a></h1>
             <nav id="nav">
                 <ul>
-                    <li class="fa fa-home" title="Home">
-                        <a href="index.html"> </a>
+                    <li>
+                        <a href="index.html" title="Home" class="fa fa-home">
+                        </a>
                     </li>
                     <li>
-                        <a href="#">Layouts</a>
+                        <a href="#one">About Me</a>
                         <ul>
                             <li><a href="left-sidebar.html">Left Sidebar</a></li>
                             <li><a href="right-sidebar.html">Right Sidebar</a></li>
@@ -45,8 +46,9 @@
                             </li>
                         </ul>
                     </li>
-                    <li><a href="elements.html">Elements</a></li>
-                    <li><a href="#" class="button special">Sign Up</a></li>
+                    <li><a href="#two">Projects</a></li>
+                    <li><a href="elements.html">Experience</a></li>
+                    <li><a href="#five">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -65,13 +67,13 @@
 
         <!-- One -->
         <section id="one" class="spotlight style1 bottom">
-            <span class="image fit main"><img src="images/pic02.jpg" alt="" /></span>
+            <span class="image fit main"><img src="images/codeEDIT.jpg" alt="" /></span>
             <div class="content">
                 <div class="container">
                     <div class="row">
                         <div class="4u 12u$(medium)">
                             <header>
-                                <h2>Odio faucibus ipsum integer consequat</h2>
+                                <h2>About Erick</h2>
                                 <p>Nascetur eu nibh vestibulum amet gravida nascetur praesent</p>
                             </header>
                         </div>
@@ -91,22 +93,22 @@
 
         <!-- Two -->
         <section id="two" class="spotlight style2 right">
-            <span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>
+            <span class="image fit main"><img src="images/coding.jpg" alt="" /></span>
             <div class="content">
                 <header>
-                    <h2>Interdum amet non magna accumsan</h2>
+                    <h2>Projects</h2>
                     <p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p>
                 </header>
                 <p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
                 <ul class="actions">
-                    <li><a href="#" class="button">Learn More</a></li>
+                    <li><a href="#" class="button">Resume</a></li>
                 </ul>
             </div>
             <a href="#three" class="goto-next scrolly">Next</a>
         </section>
 
         <!-- Three -->
-        <section id="three" class="spotlight style3 left">
+        <!-- <section id="three" class="spotlight style3 left">
             <span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
             <div class="content">
                 <header>
@@ -119,13 +121,13 @@
                 </ul>
             </div>
             <a href="#four" class="goto-next scrolly">Next</a>
-        </section>
+        </section> -->
 
         <!-- Four -->
         <section id="four" class="wrapper style1 special fade-up">
             <div class="container">
                 <header class="major">
-                    <h2>Accumsan sed tempus adipiscing blandit</h2>
+                    <h2>EXPERIENCE</h2>
                     <p>Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat</p>
                 </header>
                 <div class="box alt">
@@ -174,13 +176,27 @@
         <section id="five" class="wrapper style2 special fade">
             <div class="container">
                 <header>
-                    <h2>Magna faucibus lorem diam</h2>
-                    <p>Ante metus praesent faucibus ante integer id accumsan eleifend</p>
+                    <h2>CONTACT</h2>
+                    <p>Looking foward to answer your email as soon as posible.</p>
                 </header>
+
                 <form method="post" action="#" class="container 50%">
                     <div class="row uniform 50%">
-                        <div class="8u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Your Email Address" /></div>
-                        <div class="4u$ 12u$(xsmall)"><input type="submit" value="Get Started" class="fit special" /></div>
+                        <div class="6u 12u$(xsmall)">
+                            <input type="text" name="name" id="name" value="" placeholder="Name" />
+                        </div>
+                        <div class="6u$ 12u$(xsmall)">
+                            <input type="email" name="email" id="email" value="" placeholder="Email" />
+                        </div>
+                        <div class="12u$">
+                            <textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+                        </div>
+                        <div class="12u$">
+                            <ul class="actions">
+                                <li><input type="submit" value="Send Message" class="special" /></li>
+                                <li><input type="reset" value="Reset" /></li>
+                            </ul>
+                        </div>
                     </div>
                 </form>
             </div>
@@ -189,16 +205,16 @@
         <!-- Footer -->
         <footer id="footer">
             <ul class="icons">
-                <li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-                <li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-                <li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                <li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-                <li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-                <li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+                <li><a href="https://twitter.com/erickkriv" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100009133905357" class="icon alt fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+                <li><a href="https://www.linkedin.com/in/erick-rivera-24b552116/" class="icon alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://www.instagram.com/erkriv/" class="icon alt fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+                <li><a href="https://github.com/erickriv" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+                <!-- <li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li> -->
             </ul>
             <ul class="copyright">
-                <li>&copy; Untitled. All rights reserved.</li>
-                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                <li>&copy; Electrop. All rights reserved.</li>
+                <!--Original Design: <a href="http://html5up.net">HTML5 UP</a>-->
             </ul>
         </footer>
 
