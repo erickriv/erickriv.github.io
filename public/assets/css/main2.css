@@ -1676,6 +1676,10 @@ pre code {
 .section-one-font-color {
     color: #1c1d26 !important;
 }
+
+.header-shadow {
+    text-shadow: 1px 1px #ffffff;
+}
 /* Loader */
 
 @-moz-keyframes spinner-show {
