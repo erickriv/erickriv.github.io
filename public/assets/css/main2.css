@@ -7,6 +7,18 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* Font */
+@font-face {
+	font-family: gamingPixel;
+	src: url(../fonts/Retro\ Gaming.ttf);
+
+}
+
+@font-face {
+	font-family: empire;
+	src: url(../fonts/EmpireSamgor.ttf);
+
+}
 
 /* Reset */
 
@@ -1505,12 +1517,12 @@ a {
     -ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
     transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
     border-bottom: dotted 1px;
-    color: #3fbdbb;
+    color: 610785;
     text-decoration: none;
 }
 
 a:hover {
-    color: #3fbdbb !important;
+    color: 610785 !important;
     border-bottom-color: transparent;
 }
 
@@ -1641,7 +1653,29 @@ pre code {
     text-align: right;
 }
 
+.gaming-font{
+    font-family: gamingPixel;
+}
 
+.empire-font{
+    font-family: empire;
+}
+
+
+/* rotate  */
+.rotate-90 {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari 3-8 */
+    transform: rotate(90deg);
+}
+
+/* Background First Section */
+.section-one-background {
+    background-image: url(../../images/static.jpeg);
+}
+.section-one-font-color {
+    color: #1c1d26 !important;
+}
 /* Loader */
 
 @-moz-keyframes spinner-show {
@@ -2044,7 +2078,7 @@ header.major {
 }
 
 header.major:after {
-    background: #3fbdbb;
+    background: 610785;
     content: '';
     display: inline-block;
     height: 0.2em;
@@ -2108,7 +2142,7 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 select:focus,
 textarea:focus {
-    border-color: #3fbdbb;
+    border-color: 610785;
 }
 
 .select-wrapper {
@@ -2225,7 +2259,7 @@ input[type="radio"]:checked+label:before {
 
 input[type="checkbox"]:focus+label:before,
 input[type="radio"]:focus+label:before {
-    border-color: #3fbdbb;
+    border-color: 610785;
 }
 
 input[type="checkbox"]+label:before {
@@ -2655,8 +2689,8 @@ input[type="button"]:hover,
 input[type="button"]:active,
 .button:hover,
 .button:active {
-    box-shadow: inset 0 0 0 1px #3fbdbb;
-    color: #3fbdbb !important;
+    box-shadow: inset 0 0 0 1px 610785;
+    color: 610785 !important;
 }
 
 input[type="submit"]:active,
@@ -2700,7 +2734,7 @@ input[type="submit"].special,
 input[type="reset"].special,
 input[type="button"].special,
 .button.special {
-    background-color: #3fbdbb;
+    background-color: 610785;
     box-shadow: none;
     color: #ffffff !important;
 }
@@ -2709,14 +2743,14 @@ input[type="submit"].special:hover,
 input[type="reset"].special:hover,
 input[type="button"].special:hover,
 .button.special:hover {
-    background-color: #3fbdbb;
+    background-color: 610785;
 }
 
 input[type="submit"].special:active,
 input[type="reset"].special:active,
 input[type="button"].special:active,
 .button.special:active {
-    background-color: #3fbdbb;
+    background-color: 610785;
 }
 
 input[type="submit"].disabled,
@@ -2888,7 +2922,7 @@ input[type="button"]:disabled,
     -webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
     -ms-transition: -ms-transform 1s ease, opacity 1s ease;
     transition: transform 1s ease, opacity 1s ease;
-    background: rgba(23, 24, 32, 0.95);
+    background: rgba(48, 48, 48, 0.507);
     border-style: solid;
     opacity: 1;
     position: absolute;
@@ -2923,7 +2957,7 @@ input[type="button"]:disabled,
 }
 
 .spotlight.bottom .content {
-    border-top-width: 0.35em;
+    /* border-top-width: 0.35em; */
     bottom: 0;
 }
 
@@ -2941,13 +2975,13 @@ input[type="button"]:disabled,
 }
 
 .spotlight.right .content {
-    border-left-width: 0.35em;
+    /* border-left-width: 0.35em; */
     right: 0;
 }
-
+/* 
 .spotlight.style1 .content {
-    border-color: #3fbdbb;
-}
+    border-color: 610785;
+} */
 
 .spotlight.style2 .content {
     border-color: #696969;
@@ -3009,7 +3043,7 @@ body.is-touch .spotlight {
 }
 
 .wrapper.style2 {
-    background: #3fbdbb;
+    background: #610785;
 }
 
 .wrapper.style2 input[type="text"]:focus,
@@ -3045,7 +3079,7 @@ body.is-touch .spotlight {
 .wrapper.style2 input[type="button"].special,
 .wrapper.style2 .button.special {
     background-color: #ffffff;
-    color: #3fbdbb !important;
+    color: 610785 !important;
 }
 
 .wrapper.style2 input[type="submit"].special:hover,
@@ -3153,7 +3187,7 @@ body.is-touch .spotlight {
 
 .dropotron>li.active>a,
 .dropotron>li.active>span {
-    color: #3fbdbb;
+    color: 610785;
 }
 
 .dropotron.level-0 {
@@ -3248,7 +3282,7 @@ body.landing .dropotron.level-0 {
 
 #header nav ul li.active>a,
 #header nav ul li.active>span {
-    color: #3fbdbb;
+    color: 610785;
 }
 
 #header nav ul li>ul {
@@ -3271,7 +3305,7 @@ body.landing #header {
 #banner {
     background-attachment: fixed;
     background-color: #272833;
-    background-image: url("../../images/banner.jpg");
+    background-image: url("../../images/static.jpeg");
     background-position: center center;
     background-size: cover;
     box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -3279,6 +3313,7 @@ body.landing #header {
     position: relative;
     text-align: center;
     z-index: 21;
+    color: #1c1d26 !important;
 }
 
 #banner:before {
@@ -3290,14 +3325,14 @@ body.landing #header {
 }
 
 #banner:after {
-    background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");
+    /* background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");
     ;
     background-image: -webkit-linear-gradient(top, rgba(78, 78, 80, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");
     ;
     background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");
     ;
     background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");
-    ;
+    ; */
     content: '';
     display: block;
     height: 100%;
@@ -3356,7 +3391,7 @@ body.is-touch #banner {
 /* Footer */
 
 #footer {
-    background: #272833;
+    background: #2d2d2dd1;
     padding: 6em 0;
     text-align: center;
 }
@@ -3680,7 +3715,7 @@ body.is-touch #banner {
         text-transform: none !important;
     }
     #titleBar .toggle:before {
-        background: #3fbdbb;
+        background: 610785;
         color: rgba(255, 255, 255, 0.5);
         content: '\f0c9';
         display: block;
